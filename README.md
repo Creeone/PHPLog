@@ -15,7 +15,6 @@ To start using:
 
 1. Assign folder with logs
 ```PHPLog::$PATH = dirname(__FILE__);```
-
 2. Create a logger and write data to the log
 ```PHPLog::getLogger($name)->log($data);```
 
@@ -32,7 +31,7 @@ In the `examples` folder, there are 3 simple examples of using PHPLog
 - [x] Create PHPLog
 - [x] Support for logging arrays
 - [x] Show your creation to the world :earth_asia:
-- [ ] Get support from @Croenen
+- [ ] Get support from [@Croenen](https://github.com/Croenen)
 - [ ] Get mentions on [github](https://github.com/) or [stackoverflow](https://stackoverflow.com/)
 
 ## Finally

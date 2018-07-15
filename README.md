@@ -7,8 +7,8 @@ Simple and convenient PHP library (script) for data logging
 ## Installation
 
 To start using:
-1. Download PHPLog in your project
-2. Connect PHPLog to your project
+1. Download **PHPLog** in your project
+2. Connect **PHPLog** to your project
 	```require_once('your_path/PHPLog.php');```
 
 ## Commands and Uses
@@ -20,7 +20,7 @@ To start using:
 
 ## Examples
 
-In the `examples` folder, there are 3 simple examples of using PHPLog
+In the `examples` folder, there are 3 simple examples of using **PHPLog**
 
 * Example1 - basic use for logging string and more than one params
 * Example2 - logging array
@@ -28,7 +28,7 @@ In the `examples` folder, there are 3 simple examples of using PHPLog
 
 ## Roadmap?
 
-- [x] Create PHPLog
+- [x] Create **PHPLog**
 - [x] Support for logging arrays
 - [x] Show your creation to the world :earth_asia:
 - [ ] Get support from [@Croenen](https://github.com/Croenen)

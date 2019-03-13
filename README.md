@@ -31,7 +31,7 @@ In the `examples` folder, there are 3 simple examples of using **PHPLog**
 - [x] Create **PHPLog**
 - [x] Support for logging arrays
 - [x] Show your creation to the world :earth_asia:
-- [ ] Get support from [@Croenen](https://github.com/Croenen)
+- [x] Get support from [@Croenen](https://github.com/Croenen)
 - [ ] Get mentions on [github](https://github.com/) or [stackoverflow](https://stackoverflow.com/)
 
 ## Finally

@@ -35,9 +35,9 @@ class PHPLog
 		return self::$loggers[$name];
 	}
 
-	public function log($message)
+	public function log(...$message)
 	{
-		if(!is_string($message))
+		if(count($message) == 1 && !is_string($message[0]))
 		{
 			$this->logPrint($message);
 			return ;
@@ -47,11 +47,7 @@ class PHPLog
 
 		$log .= '[' . date('D M d H:i:s Y',time()) . '] ';
 
-		if(func_num_args() > 1)
-		{
-			$params = func_get_args();
-			$message = implode(', ',$params);
-		}
+		$message = implode(', ', $message);
 
 		$log .= $message;
 		$log .= "\n";
